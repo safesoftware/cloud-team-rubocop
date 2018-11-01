@@ -31,3 +31,6 @@ Style/FrozenStringLiteralComment:
     - db/**/*
     - config/rufus.d/**/*
     - '**/*.rabl'
+
+Style/SymbolArray:
+  Enabled: false
