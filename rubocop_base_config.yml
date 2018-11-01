@@ -25,3 +25,9 @@ Layout/SpaceInsideHashLiteralBraces:
 
 Metrics/LineLength:
   Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Exclude:
+    - db/**/*
+    - config/rufus.d/**/*
+    - '**/*.rabl'
