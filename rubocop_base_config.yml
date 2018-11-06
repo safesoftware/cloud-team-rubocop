@@ -15,6 +15,9 @@ Layout/EmptyLinesAroundClassBody:
 Layout/EmptyLinesAroundModuleBody:
   Enabled: false
 
+Layout/MultilineMethodCallIndentation
+  EnforcedStyle: indented
+  
 Layout/SpaceBeforeBlockBraces:
   Enabled: false
 
