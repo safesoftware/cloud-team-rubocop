@@ -42,6 +42,9 @@ Metrics/LineLength:
 Metrics/MethodLength:
   Max: 20
 
+Metrics/ParameterLists:
+  CountKeywordArgs: false
+
 Style/FrozenStringLiteralComment:
   Exclude:
     - db/**/*
