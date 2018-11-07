@@ -31,6 +31,10 @@ Metrics/BlockLength:
   Exclude:
     - 'spec/**/*'
     - 'features/**/*'
+    
+Metrics/ModuleLength:
+  Exclude:
+    - 'spec/**/*'
 
 Metrics/LineLength:
   Enabled: false
