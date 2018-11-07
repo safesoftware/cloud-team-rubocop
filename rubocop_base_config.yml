@@ -48,6 +48,9 @@ Style/FrozenStringLiteralComment:
     - config/rufus.d/**/*
     - '**/*.rabl'
 
+Style/RegexpLiteral:
+  AllowInnerSlashes: true
+
 Style/SymbolArray:
   Enabled: false
 
