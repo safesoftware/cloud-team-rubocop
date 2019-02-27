@@ -59,3 +59,6 @@ Style/SymbolArray:
 
 Style/Documentation:
   Enabled: false
+  
+Style/Lambda:
+  EnforcedStyle: literal
