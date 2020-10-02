@@ -16,6 +16,8 @@ Layout/EmptyLinesAroundClassBody:
   Enabled: false
 Layout/EmptyLinesAroundModuleBody:
   Enabled: false
+Layout/LineLength:
+  Enabled: false
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
 Layout/SpaceAroundMethodCallOperator: # (new in 0.82)
@@ -82,8 +84,6 @@ Metrics/BlockLength:
     - state_machine
 Metrics/CyclomaticComplexity:
   Max: 10
-Metrics/LineLength:
-  Enabled: false
 Metrics/MethodLength:
   Max: 20
 Metrics/ModuleLength:
