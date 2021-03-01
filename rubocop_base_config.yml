@@ -154,3 +154,8 @@ Style/StringConcatenation: # (new in 0.89)
   Enabled: true
 Style/SymbolArray:
   Enabled: false
+Style/SymbolProc:
+  IgnoredMethods:
+    - after_transition
+    - before_transition
+    - around_transition
