@@ -156,6 +156,8 @@ Style/SymbolArray:
   Enabled: false
 Style/SymbolProc:
   IgnoredMethods:
+    - respond_to
+    - define_method
     - after_transition
     - before_transition
     - around_transition
