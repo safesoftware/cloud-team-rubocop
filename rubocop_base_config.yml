@@ -17,7 +17,7 @@ Layout/EmptyLinesAroundClassBody:
 Layout/EmptyLinesAroundModuleBody:
   Enabled: false
 Layout/LineLength:
-  Enabled: false
+  Enabled: true
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
 Layout/SpaceAroundMethodCallOperator: # (new in 0.82)
@@ -124,6 +124,8 @@ Style/HashTransformKeys: # (new in 0.80)
   Enabled: true
 Style/HashTransformValues: # (new in 0.80)
   Enabled: true
+Style/IfUnlessModifier:
+  Enabled: false
 Style/KeywordParametersOrder: # (new in 0.90)
   Enabled: true
 Style/Lambda:
