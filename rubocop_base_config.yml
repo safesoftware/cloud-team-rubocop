@@ -136,7 +136,7 @@ Metrics/BlockLength:
   Exclude:
     - 'spec/**/*'
     - 'features/**/*'
-  ExcludedMethods:
+  IgnoredMethods:
     - refine
     - state_machine
 Metrics/CyclomaticComplexity:
