@@ -39,8 +39,6 @@ Layout/SpaceInsideBlockBraces:
   Enabled: false
 Layout/SpaceInsideHashLiteralBraces:
   EnforcedStyle: space
-
-
   
 Lint/AmbiguousAssignment: # new in 1.7
   Enabled: true
@@ -129,7 +127,6 @@ Lint/UselessRuby2Keywords: # new in 1.23
 Lint/UselessTimes: # (new in 0.91)
   Enabled: true
 
-
 Metrics/AbcSize:
   Max: 20
 Metrics/BlockLength:
@@ -148,7 +145,6 @@ Metrics/ModuleLength:
     - 'spec/**/*'
 Metrics/ParameterLists:
   CountKeywordArgs: false
-
 
 Security/IoMethods: # new in 1.22
   Enabled: true
