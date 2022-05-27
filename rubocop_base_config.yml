@@ -65,9 +65,10 @@ Lint/DuplicateRequire: # (new in 0.90)
 Lint/DuplicateRescueException: # (new in 0.89)
   Enabled: true
 Lint/EmptyBlock: # new in 1.1
-  Enabled: true  
+  Enabled: true
 Lint/EmptyClass: # new in 1.3
-  Enabled: true  
+  Enabled: true
+  AllowComments: true
 Lint/EmptyConditionalBody: # (new in 0.89)
   Enabled: true
 Lint/EmptyFile: # (new in 0.90)
@@ -259,3 +260,6 @@ Style/SymbolProc:
     - after_transition
     - before_transition
     - around_transition
+Style/TernaryParentheses:
+  Enabled: true
+  EnforcedStyle: require_parentheses_when_complex
