@@ -291,6 +291,14 @@ Style/OptionalBooleanParameter: # (new in 0.89)
   Enabled: true
 Style/QuotedSymbols: # new in 1.16
   Enabled: true
+Style/PercentLiteralDelimiters:
+  PreferredDelimiters:
+    default: '[]'
+    '%i': '[]'
+    '%I': '[]'
+    '%r': '{}'
+    '%w': '[]'
+    '%W': '[]'
 Style/RedundantArgument: # new in 1.4
   Enabled: true
 Style/RedundantArrayConstructor: # new in 1.52
@@ -361,5 +369,7 @@ Style/SymbolProc:
 Style/TernaryParentheses:
   Enabled: true
   EnforcedStyle: require_parentheses_when_complex
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: no_comma
 Style/YAMLFileRead: # new in 1.53
   Enabled: true
