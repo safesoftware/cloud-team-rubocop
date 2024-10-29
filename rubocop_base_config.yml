@@ -123,6 +123,8 @@ Lint/UnmodifiedReduceAccumulator: # new in 1.1
   Enabled: true  
 Lint/UselessMethodDefinition: # (new in 0.90)
   Enabled: true
+  IgnoredMethods:
+    - object
 Lint/UselessRuby2Keywords: # new in 1.23
   Enabled: true  
 Lint/UselessTimes: # (new in 0.91)
