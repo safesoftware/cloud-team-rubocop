@@ -146,8 +146,6 @@ Lint/UnreachableLoop: # (new in 0.89)
   Enabled: true
 Lint/UselessMethodDefinition: # (new in 0.90)
   Enabled: true
-  IgnoredMethods:
-    - object
 Lint/UselessRescue: # new in 1.43
   Enabled: true
 Lint/UselessRuby2Keywords: # new in 1.23
