@@ -347,6 +347,8 @@ Style/SelectByRegexp: # new in 1.22
   Enabled: true
 Style/SingleArgumentDig: # (new in 0.89)
   Enabled: true
+Style/SingleLineDoEndBlock: # (new in 1.57.2)
+  Enabled: true
 Style/SlicingWithRange: # (new in 0.83)
   Enabled: true
 Style/SoleNestedConditional: # (new in 0.89)
